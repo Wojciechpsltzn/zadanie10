@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+
+    <title>Tabele </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zadanie 10">
+    <meta name="author" content="Wojciech Piwowarczyk">
+    
+   </head> 
+        <body>
+            <p><h2>PIERWSZA TABELKA</h2></p>
+               <table border="1" style="width:40%; height:25em;">
+		<tr style=" background-color:lightblue; ">
+                  <th style="width:5%">1</th>
+		  <th style="height:25px">2</th>
+		  <th>3</th>
+		  <th>4</th>
+		  <th>5</th>
+		  <th>6</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">2</th>
+		  <th>a</th>
+		  <th style=" background-color:	#98FB98;">b</th>
+		  <th style=" background-color:	#98FB98;">c</th>
+		  <th>d</th>
+		  <th>e</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">3</th>
+		  <th>f</th>
+		  <th>g</th>
+		  <th>h</th>
+		  <th>i</th>
+		  <th style=" background-color:	#8FBC8F;">j</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">4</th>
+		  <th>k</th>
+		  <th>l</th>
+		  <th>m</th>
+		  <th>n</th>
+		  <th style=" background-color:	#8FBC8F;">o</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">5</th>
+		  <th style=" background-color:	#556B2F;">p</th>
+		  <th style=" background-color:	#556B2F;">q</th>
+		  <th style=" background-color:	#556B2F;">r</th>
+		  <th>s</th>
+		  <th>t</th>
+		</tr>
+                <tr>
+		  <th style=" background-color:lightblue;">6</th>
+		  <th style=" background-color:	#556B2F;">u</th>
+		  <th style=" background-color:	#556B2F;">v</th>
+		  <th style=" background-color:	#556B2F;">w</th>
+		  <th>y</th>
+		  <th>z</th>
+		</tr>
+		</table>
+              
+               
+
+            <p><h2>DRUGA TABELKA</h2></p>
+               <table border="1" style="width:40%; height:25em;">
+		<tr style=" background-color:lightblue; ">
+                  <th style="width:5%">1</th>
+		  <th style="height:25px">2</th>
+		  <th>3</th>
+		  <th>4</th>
+		  <th>5</th>
+		  <th>6</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">2</th>
+		  <th>a</th>
+		  <th style=" background-color:	#98FB98;" colspan="2">b,c</th>
+		  <th>d</th>
+		  <th>e</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">3</th>
+		  <th>f</th>
+		  <th>g</th>
+		  <th>h</th>
+		  <th>i</th>
+		  <th style=" background-color:	#8FBC8F;" rowspan="2">j,o</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">4</th>
+		  <th>k</th>
+		  <th>l</th>
+		  <th>m</th>
+		  <th>n</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:lightblue;">5</th>
+		  <th style=" background-color:	#556B2F;" colspan="3" rowspan="2">p,q,r,u,v,w</th>
+		  <th>s</th>
+		  <th>t</th>
+		</tr>
+                <tr>
+		  <th style=" background-color:lightblue;">6</th>
+		  <th>y</th>
+		  <th>z</thd>
+		</tr>
+		</table>
+            <p><h2>TRZECIA TABELKA</h2></p>
+                <table border="1" style="width:40%; height:25em;">
+		<tr style=" background-color:blue; ">
+                  <th style="width:5%">1</th>
+		  <th style="height:25px">2</th>
+		  <th>3</th>
+		  <th>4</th>
+		  <th>5</th>
+		  <th>6</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:blue;">2</th>
+		  <th>a</th>
+		  <th>b</th>
+		  <th>c</th>
+		  <th>d</th>
+		  <th>e</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:blue;">3</th>
+		  <th>f</th>
+		  <th style=" background-color: #4169E1;" colspan="3" rowspan="2">p, q, r, u, v, w</th>
+		  <th>j</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:blue;">4</th>
+		  <th>k</th>
+		  <th>o</th>
+		</tr>
+		<tr>
+		  <th style=" background-color:blue;">5</th>
+		  <th>p</th>
+		  <th>q</th>
+		  <th>r</th>
+		  <th>s</th>
+		  <th>t</th>
+		</tr>
+                <tr>
+		  <th style=" background-color:blue;">6</th>
+		  <th>u</th>
+		  <th>v</th>
+		  <th>w</th>
+		  <th>y</th>
+		  <th>z</th>
+		</tr>
+		</table>
+	</body>
+</html>
